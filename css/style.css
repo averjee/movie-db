@@ -1,0 +1,73 @@
+#movies img, #movie img{
+    width: 100%;
+}
+
+h5 {
+  font-size: 20px;
+}
+
+h3, h5 {
+  color: white;
+}
+
+.well {
+  border-color: #5a5959;
+  margin-top: 20px;
+}
+
+.text-center {
+  margin-bottom: 23px;
+}
+
+.well h3 {
+  color: black;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+body {
+  background-color: black;
+}
+
+.navbar {
+  margin: 0 auto;
+  width: 100px; 
+}
+
+.navbar-brand {
+  width: 120px;
+}
+
+.nav{
+  border:1px solid #ccc;
+  border-width:1px 0;
+  list-style:none;
+  margin:0;
+  padding:0;
+  text-align:center;
+}
+.nav li{
+  display:inline;
+}
+.nav a{
+  font-size: 20px;
+  display:inline-block !important;
+  padding:10px;
+}
+
+.jumbotron, .well.text-center {
+  background-color: black;
+}
+  
+@media(min-width:960px){
+  #movies .col-md-3 .well{
+    height: 390px;
+  }
+
+  #movies .col-md-3 img{
+    height: 240px;
+  }
+}
